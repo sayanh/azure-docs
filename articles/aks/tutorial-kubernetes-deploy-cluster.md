@@ -49,7 +49,7 @@ After registering, you are now ready to create a Kubernetes cluster with AKS.
 The following example creates a cluster named `myK8sCluster` in a Resource Group named `myResourceGroup`. This Resource Group was created in the [previous tutorial](./tutorial-kubernetes-prepare-acr.md).
 
 ```azurecli
-az aks create --resource-group myResourceGroup --name myK8sCluster --agent-count 1 --generate-ssh-keys
+az aks create --resource-group myResourceGroup --name myK8sCluster --generate-ssh-keys
 ```
 
 After several minutes, the deployment completes, and returns json formatted information about the AKS deployment.
